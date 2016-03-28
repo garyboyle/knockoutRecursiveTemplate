@@ -1,0 +1,24 @@
+{
+  "name": "knockout-recursive-templates",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Gary Boyle <gary@shayoo.co.uk>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/garyboyle/knockoutRecursiveTemplate",
+  "moduleType": [
+    "globals"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "knockout": "knockoutjs#^3.4.0",
+    "Materialize": "materialize#^0.97.5"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "knockout-recursive-templates",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garyboyle/knockoutRecursiveTemplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garyboyle/knockoutRecursiveTemplate/issues"
+  },
+  "homepage": "https://github.com/garyboyle/knockoutRecursiveTemplate#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-bowercopy": "^1.2.4"
+  }
+}
