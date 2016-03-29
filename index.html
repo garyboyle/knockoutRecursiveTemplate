@@ -8,9 +8,22 @@
 		<link rel="stylesheet" href="css/materialize.min.css"></link>
 	</head>
 	<body>
-		<div class="chip">
-	    Tag
-	    	<i class="material-icons">close</i>
-	  	</div>
+		<div id="tree" data-bind='template: { name: "branchTemplate" }'>
+		</div>
+		 
+		<script id="branchTemplate" type="text/html">
+			<div style="padding-left: 10px">
+				<span>Branch</span>
+				<span data-bind="click: $data.addBranch">Add Branch</span>
+				<span data-bind="click: $data.addLeaf">Add Leaf</span>
+			    <div data-bind="foreach: $data.leaves">
+			        <div class="chip">Leaf</div>
+			    </div>
+			    <div id="tree" data-bind='template: { name: "branchTemplate", foreach: $data.branches }'>
+			</div>
+		</script>
+
+		<script type="text/javascript" src="scripts/tree.js"></script>		
+		<script type="text/javascript" src="scripts/main.js"></script>
 	</body>
 </html>
