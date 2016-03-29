@@ -15,8 +15,8 @@
 			<div style="padding-left: 10px">
 				<span>Branch</span>
 
-				<a data-bind="{visible:$data.leaves().length > 0,click: $data.addBranch}">Add Branch</a>
-				<a data-bind="click: $data.addLeaf">Add Leaf</a>
+				<i class="tiny material-icons" data-bind="click: $data.addLeaf">add</i>
+				<i class="tiny material-icons" data-bind="{visible:$data.leaves().length > 0,click: $data.addBranch}">playlist_add</i>
 			    <div data-bind="foreach: $data.leaves">
 			        <div class="chip">Leaf</div>
 			    </div>
