@@ -8,7 +8,7 @@ Tree = function(){
 	this.addLeaf = function(){
 		self.leaves.push('new leaf')
 		return self;
-	}
+	};
 
 	this.addBranch = function (){
 		var newBranch = new Tree();
@@ -16,5 +16,5 @@ Tree = function(){
 		self.branches.push(newBranch);
 
 		return newBranch;
-	}
-}
+	};
+};
